@@ -1,0 +1,351 @@
+.header .wrapper
+{
+width:80%;
+margin:auto;
+}
+.banner .wrapper
+{
+width:80%;
+margin:auto;
+}
+.new .wrapper
+{
+width:80%;
+margin:auto;
+}
+.services .wrapper
+{
+width:80%;
+margin:auto;
+}
+.category .wrapper
+{
+width:100%;
+margin:auto;
+}
+.downloads .wrapper
+{
+width:80%;
+margin:auto;
+}
+.details .wrapper
+{
+width:80%;
+margin:auto;
+}
+.footer .wrapper
+{
+width:80%;
+margin:auto;
+}
+.header
+{
+	height:60px;
+	background-color:coral;
+}
+.header .header-fc
+{
+	display:flex;
+	justify-content:space-between;
+}
+.header .header-fc .home
+{
+	margin-top:15px;
+	height:30px;
+	width:20%;
+	background-color:lightgreen;
+}
+.header .header-fc .about
+{
+	margin-top:15px;
+	height:30px;
+	width:10%;
+	background-color:gray;
+}
+.header .header-fc .service
+{
+	margin-top:15px;
+	height:30px;
+	width:10%;
+	background-color:gray;
+}
+.header .header-fc .portfolio
+{
+	margin-top:15px;
+	height:30px;
+	width:10%;
+	background-color:gray;
+}
+.header .header-fc .contact
+{
+	margin-top:15px;
+	height:30px;
+	width:10%;
+	background-color:gray;
+}
+.banner
+{
+	height:400px;
+	background-color:teal;
+}
+.banner .banner-fc
+{
+	display:flex;
+	flex-direction:column;
+	align-items:center;
+}
+.banner .banner-fc .text
+{
+	margin-top:50px;
+	height:200px;
+	width:50%;
+	background-color:lightblue;
+}
+.banner .banner-fc .more
+{
+	margin-top:40px;
+	height:50px;
+	width:20%;
+	background-color:pink;
+}
+.new
+{
+	height:200px;
+	background-color:crimson;
+}
+.new .new-fc
+{
+	display:flex;
+	flex-direction:column;
+	align-items:center;
+}
+.new .new-fc .text
+{
+	margin-top:30px;
+	height:100px;
+	width:50%;
+	background-color:white;
+}
+.new .new-fc .start
+{
+	margin-top:20px;
+	height:30px;
+	width:20%;
+	background-color:white;
+}
+.services
+{
+	height:400px;
+	background-color:purple;
+}
+.services .services-fc
+{
+	display:flex;
+	justify-content:space-evenly;
+	flex-wrap:wrap;
+}
+.services .services-fc .service
+{
+	margin-top:50px;
+	height:200px;
+	width:100%;
+	background-color:pink;
+}
+.services .services-fc .theme
+{
+	margin-top:40px;
+	height:50px;
+	width:20%;
+	background-color:pink;
+}
+.services .services-fc .date
+{
+	margin-top:40px;
+	height:50px;
+	width:20%;
+	background-color:blue;
+}
+.services .services-fc .publish
+{
+	margin-top:40px;
+	height:50px;
+	width:20%;
+	background-color:pink;
+}
+.services .services-fc .love
+{
+	margin-top:40px;
+	height:50px;
+	width:20%;
+	background-color:blue;
+}
+.category
+{
+	height:500px;
+	background-color:pink;
+}
+.category .category-fc
+{
+	display:flex;
+	flex-wrap:wrap;
+}
+.category .category-fc .a
+{
+	height:250px;
+	width:33.3%;
+	background-color:fuchsia;
+}
+.category .category-fc .b
+{
+	height:250px;
+	width:33.3%;
+	background-color:goldenrod;
+}
+.category .category-fc .c
+{
+	height:250px;
+	width:33.3%;
+	background-color:fuchsia;
+}
+.category .category-fc .d
+{
+	height:250px;
+	width:33.3%;
+	background-color:goldenrod;
+}
+.category .category-fc .e
+{
+	height:250px;
+	width:33.3%;
+	background-color:fuchsia;
+}
+.category .category-fc .f
+{
+	height:250px;
+	width:33.3%;
+	background-color:goldenrod;
+}
+.downloads
+{
+	height:200px;
+	background-color:beige;
+}
+.downloads .downloads-fc
+{
+	display:flex;
+	flex-direction:column;
+	align-items:center;
+}
+.downloads .downloads-fc .download
+{
+	margin-top:30px;
+	height:100px;
+	width:50%;
+	background-color:crimson;
+}
+.downloads .downloads-fc .now
+{
+	margin-top:20px;
+	height:30px;
+	width:20%;
+	background-color:crimson;
+}
+.details
+{
+	height:700px;
+	background-color:indigo;
+}
+.details .details-fc
+{
+	display:flex;
+	flex-direction:column;
+    align-items:center;
+}
+.details .details-fc .text
+{
+	margin-top:35px;
+	height:70px;
+	width:50%;
+	background-color:lightcoral;
+}
+.details .details-fc .name
+{
+	margin-top:20px;
+	height:70px;
+	width:50%;
+	background-color:lightcyan;
+}
+.details .details-fc .email
+{
+	margin-top:20px;
+	height:70px;
+	width:50%;
+	background-color:lightcoral;
+}
+.details .details-fc .phone
+{
+	margin-top:20px;
+	height:70px;
+	width:50%;
+	background-color:lightcyan;
+}
+.details .details-fc .message
+{
+	margin-top:20px;
+	height:100px;
+	width:50%;
+	background-color:lightcoral;
+}
+.details .details-fc .submit
+{
+	margin-top:20px;
+	height:70px;
+	width:50%;
+	background-color:lightcyan;
+}
+.details .details-fc .number
+{
+	margin-top:20px;
+	height:50px;
+	width:25%;
+	background-color:lightcoral;
+}
+.footer
+{
+	height:60px;
+	background-color:mistyrose;
+}
+.footer .footer-fc
+{
+	display:flex;
+	justify-content:center;
+
+}
+.footer .footer-fc .copyright
+{
+	margin-top:15px;
+	height:30px;
+	width:10%;
+	background-color:white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
